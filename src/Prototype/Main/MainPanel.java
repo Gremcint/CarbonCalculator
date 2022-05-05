@@ -104,7 +104,6 @@ public class MainPanel extends javax.swing.JFrame {
         MainMenuBar = new javax.swing.JMenuBar();
         mnuMain = new javax.swing.JMenu();
         mitMainMenu = new javax.swing.JMenuItem();
-        mitLicenses = new javax.swing.JMenuItem();
         mnuExit = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -138,14 +137,6 @@ public class MainPanel extends javax.swing.JFrame {
             }
         });
         mnuMain.add(mitMainMenu);
-
-        mitLicenses.setLabel("Licenses");
-        mitLicenses.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mitLicensesActionPerformed(evt);
-            }
-        });
-        mnuMain.add(mitLicenses);
 
         mnuExit.setText("Exit");
         mnuExit.addActionListener(new java.awt.event.ActionListener() {
@@ -222,10 +213,6 @@ public class MainPanel extends javax.swing.JFrame {
         MainMenu();
     }//GEN-LAST:event_mitMainMenuActionPerformed
 
-    private void mitLicensesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mitLicensesActionPerformed
-
-    }//GEN-LAST:event_mitLicensesActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -279,7 +266,6 @@ public class MainPanel extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar MainMenuBar;
     private javax.swing.JTabbedPane MainTabs;
-    private javax.swing.JMenuItem mitLicenses;
     private javax.swing.JMenuItem mitMainMenu;
     private javax.swing.JMenuItem mnuExit;
     private javax.swing.JMenu mnuMain;
